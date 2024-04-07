@@ -70,7 +70,7 @@ const MovieDetail = ({ selectedId, onAddWatched, onCloseMovie, watched }) => {
         document.title = `Movie | ${title}`;
 
         return function () {
-            document.title = `Movie Finder`;
+            document.title = `Movie World`;
         }
     }, [title])
 
