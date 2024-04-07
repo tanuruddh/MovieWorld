@@ -1,17 +1,17 @@
 import './App.css';
-import Navbar from './Componentes/Navbar';
-import Search from './Componentes/Search';
-import NumResults from './Componentes/NumResults';
-import Box from './Componentes/Box';
-import Main from './Componentes/Main';
-import MovieList from './Componentes/MovieList';
-import MovieDetail from './Componentes/MovieDetail';
+import Navbar from './Components/Navbar';
+import Search from './Components/Search';
+import NumResults from './Components/NumResults';
+import Box from './Components/Box';
+import Main from './Components/Main';
+import MovieList from './Components/MovieList';
+import MovieDetail from './Components/MovieDetail';
 import { useState } from 'react';
-import WatchedSummary from './Componentes/WatchedSummary';
-import WatchedMoviesList from './Componentes/WatchedMoviesList';
-import Loder from './Componentes/Loder';
-import ErrorMessage from './Componentes/ErrorMessage';
-import { useMovies } from './Componentes/useMovies';
+import WatchedSummary from './Components/WatchedSummary';
+import WatchedMoviesList from './Components/WatchedMoviesList';
+import Loder from './Components/Loder';
+import ErrorMessage from './Components/ErrorMessage';
+import { useMovies } from './Components/useMovies';
 
 function App() {
   const [query, setQuery] = useState("");
